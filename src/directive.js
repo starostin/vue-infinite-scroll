@@ -173,6 +173,9 @@ var doCheck = function (force) {
     shouldTrigger = viewportBottom + distance >= elementBottom;
   }
 
+
+  console.log('------------test-------------')
+
   if (shouldTrigger && this.expression) {
     this.expression();
   }
